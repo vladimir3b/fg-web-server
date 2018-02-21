@@ -1,0 +1,23 @@
+/**
+ *		This is the typescript configuration file, used for webpack.
+ */
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"target": "es5",                          
+		"module": "commonjs",                     
+		"moduleResolution": "node",
+		"sourceMap": true,                    
+		"noEmitOnError": true,
+		"removeComments": true,
+		"noImplicitAny": true, 
+		"watch": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"lib": ["es2017", "dom"]
+	},
+	"typeRoots": [
+		"./node_modules/@types/"
+	]
+}
+

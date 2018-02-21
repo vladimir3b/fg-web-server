@@ -1,0 +1,12 @@
+/**
+ *		This is the typescript configuration file, used for ts-node.
+ */
+{
+	"compilerOptions": {	
+		"target": "es2015",                   
+		"module": "commonjs",           
+		"strict": true,              
+		"experimentalDecorators": true,                  
+		"types" : ["node", "express", "morgan"]
+	}
+}
